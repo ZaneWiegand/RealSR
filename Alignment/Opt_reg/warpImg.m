@@ -33,7 +33,7 @@ function [Iwarp,Omega] = warpImg(I,tau,mode,extrapval)
 if nargin < 3 
     mode = 0;
 end
-if nargin < 4 
+if nargin < 4
     extrapval = [];
 end
 I = double(I);
